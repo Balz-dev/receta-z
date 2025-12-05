@@ -211,7 +211,7 @@ export function RecetaForm() {
                     <div className="space-y-4">
                         {fields.map((field, index) => (
                             <Card key={field.id} className="relative">
-                                <Button
+                                <Button //boton para remover el medicamento
                                     type="button"
                                     variant="ghost"
                                     size="icon"
@@ -291,7 +291,7 @@ export function RecetaForm() {
                             </Card>
                         ))}
                         <div className="flex justify-between items-center">
-                            <h3 className="text-lg font-medium">Medicamentos</h3>
+                            {/* <h3 className="text-lg font-medium">Medicamentos</h3> */}
                             <Button
                                 type="button"
                                 variant="outline"
